@@ -9,7 +9,7 @@ while guess != my_number:
         break
     elif guess > my_number:
         print("Guess was too high")
-    else:
+    elif guess < my_number:
         print("Guess was too low")
 else:
     print("Congratulations. You guessed it!")
